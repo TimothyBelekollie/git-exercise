@@ -828,9 +828,45 @@ Fast-forward
 
 
 ###EXercise One
-
+https://timothybelekollie.github.io/git-exercise/
 
 ###EXercise Two
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/cafe
+$ git clone https://github.com/TimothyBelekollie/git-cafe-exercise.git
+Cloning into 'git-cafe-exercise'...
+remote: Enumerating objects: 107, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (8/8), done.
+Receiving objects: 100% (107/107), 1.95 MiB | 2.39 MiB/s, done.Receiving objects:  97% (104/107), 580.00 KiB | 1.12 MiB/s
+
+Resolving deltas: 100% (5/5), done.
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/cafe
+$ cd git-cafe-exercise
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/cafe/git-cafe-exercise (main)
+$ code .
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/cafe/git-cafe-exercise (main)
+$ git add .
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/cafe/git-cafe-exercise (main)
+$ git commit -m "feat: rename main title in index.html page"
+[main 12fac64] feat: rename main title in index.html page
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/cafe/git-cafe-exercise (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 359 bytes | 359.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/TimothyBelekollie/git-cafe-exercise.git
+   d1d3f9c..12fac64  main -> main
+
 
 
 ##Bundle Six
