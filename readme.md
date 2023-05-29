@@ -366,6 +366,32 @@ $ git checkout -b ft/team-page
 Switched to a new branch 'ft/team-page'
 
 
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/team-page)
+$ git add .
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/team-page)
+$ git commit -m "create a team apge"
+[ft/team-page c5473fa] create a team apge
+ 2 files changed, 19 insertions(+), 1 deletion(-)
+ create mode 100644 team.html
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/team-page)
+$ git push origin ft/team-page
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 569 bytes | 569.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'ft/team-page' on GitHub by visiting:
+remote:      https://github.com/TimothyBelekollie/git-exercise/pull/new/ft/team-pag
+remote:
+To https://github.com/TimothyBelekollie/git-exercise.git
+ * [new branch]      ft/team-page -> ft/team-page
+
+
 ###EXercise Two
 
 ##Bundle Four
