@@ -1,4 +1,4 @@
-#THE GYM GIT EXERCISES DOCS
+ #THE GYM GIT EXERCISES DOCS
 
 ##Bundle One
 
@@ -673,5 +673,94 @@ $
 
 
 ###EXercise Two
+
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git checkout -b ft/footer
+Switched to a new branch 'ft/footer'
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/footer)
+$ git add .
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/footer)
+$ git commit -m "feat: create a footer page"
+[ft/footer 391d029] feat: create a footer page
+ 1 file changed, 12 insertions(+)
+ create mode 100644 footer.html
+g
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/footer)
+$ git push origin ft/footer
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 478 bytes | 239.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'ft/footer' on GitHub by visiting:
+remote:      https://github.com/TimothyBelekollie/git-exercise/pull/new/ft/footer
+remote:
+To https://github.com/TimothyBelekollie/git-exercise.git
+ * [new branch]      ft/footer -> ft/footer
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/footer)
+$ git add .
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/footer)
+$ git commit -m "feat:more changes in the footer page"
+[ft/footer 37cd552] feat:more changes in the footer page
+ 1 file changed, 1 insertion(+)
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/footer)
+$ git push origin ft/footer
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 380 bytes | 380.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/TimothyBelekollie/git-exercise.git
+   391d029..37cd552  ft/footer -> ft/footer
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/footer)
+$ git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git checkout -b ft/squashing
+Switched to a new branch 'ft/squashing'
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/squashing)
+$ git merge --squash ft/footer
+Updating b1c5b9e..37cd552
+Fast-forward
+Squash commit -- not updating HEAD
+ footer.html | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+ create mode 100644 footer.html
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/squashing)
+$ git commit -m "footer changes squashing"
+[ft/squashing ed42829] footer changes squashing
+ 1 file changed, 13 insertions(+)
+ create mode 100644 footer.html
+
+##Bundle Four
+
+###EXercise One
+
+
+
+
+
+
+###EXercise Two
+
+
+```
 
 
