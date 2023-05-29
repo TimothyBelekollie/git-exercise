@@ -364,6 +364,17 @@ To https://github.com/TimothyBelekollie/git-exercise.git
 belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
 $ git checkout -b ft/team-page
 Switched to a new branch 'ft/team-page'
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/team-page)
+$ git checkout ft/contact-page
+Switched to branch 'ft/contact-page'
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/contact-page)
+$ git cherry-pick c5473fa70678eb0faf856a848f6ceb4d6b66a59a
+[ft/contact-page d18b3cc] create a team apge
+ Date: Mon May 29 12:32:59 2023 +0200
+ 2 files changed, 19 insertions(+), 1 deletion(-)
+ create mode 100644 team.html
+
 
 
 ###EXercise Two
