@@ -633,6 +633,45 @@ Your branch is behind 'origin/main' by 5 commits, and can be fast-forwarded.
 
 ###Exercise One
 
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git remote add git-copy https://github.com/TimothyBelekollie/git-exercise-clone.git
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git add .
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git commit -m "feat:add changes to the home page"
+[main c69465e] feat:add changes to the home page
+ 1 file changed, 1 insertion(+)
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 362 bytes | 181.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/TimothyBelekollie/git-exercise.git
+   9736331..c69465e  main -> main
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git push git-copy
+Enumerating objects: 94, done.
+Counting objects: 100% (94/94), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (93/93), done.
+Writing objects: 100% (94/94), 16.23 KiB | 1.16 MiB/s, done.
+Total 94 (delta 57), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (57/57), done.
+To https://github.com/TimothyBelekollie/git-exercise-clone.git
+ * [new branch]      main -> main
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$
+
+
 ###EXercise Two
 
 
