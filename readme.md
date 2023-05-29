@@ -295,6 +295,9 @@ remote:
 To https://github.com/TimothyBelekollie/git-exercise.git
  * [new branch]      ft/service-redesign -> ft/service-redesign
 
+
+###EXercise Two
+
 belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/service-redesign)
 $ git checkout main
 Switched to branch 'main'
@@ -304,8 +307,43 @@ belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercis
 $ git checkout -b ft/service-redesign
 Switched to a new branch 'ft/service-redesign'
 
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/service-redesign)
+$ git add .
 
-###EXercise Two
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/service-redesign)
+$ git commit -m "new"
+[ft/service-redesign f513a72] new
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/service-redesign)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git add .
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git commit -m "feat: changes to services page"
+[main 0a6b8b4] feat: changes to services page
+ 2 files changed, 11 insertions(+)
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git push origin main
+To https://github.com/TimothyBelekollie/git-exercise.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/TimothyBelekollie/git-exercise.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git pull
+Auto-merging readme.md
+Auto-merging services.html
+CONFLICT (content): Merge conflict in services.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+
 
 ##Bundle Three
 
