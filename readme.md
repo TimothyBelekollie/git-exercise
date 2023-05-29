@@ -354,12 +354,17 @@ Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/TimothyBelekollie/git-exercise.git
    4a22b66..604126a  main -> main
-   
+
 
 
 ##Bundle Three
 
 ###Exercise One
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git checkout -b ft/team-page
+Switched to a new branch 'ft/team-page'
+
 
 ###EXercise Two
 
