@@ -354,12 +354,13 @@ Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/TimothyBelekollie/git-exercise.git
    4a22b66..604126a  main -> main
-
+   
 
 
 ##Bundle Three
 
 ###Exercise One
+
 
 belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
 $ git checkout -b ft/team-page
@@ -376,8 +377,155 @@ $ git cherry-pick c5473fa70678eb0faf856a848f6ceb4d6b66a59a
  2 files changed, 19 insertions(+), 1 deletion(-)
  create mode 100644 team.html
 
+ belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/contact-page)
+$ git checkout -b ft/faq-page
+Switched to a new branch 'ft/faq-page'
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page)
+$ git status
+On branch ft/faq-page
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        faq.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page)
+$ git commit -m "feat:creeate faq.html page"
+On branch ft/faq-page
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        faq.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page)
+$ git add .
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page)
+$ git commit -m "feat:creeate faq.html page"
+[ft/faq-page 01a578a] feat:creeate faq.html page
+ 1 file changed, 12 insertions(+)
+ create mode 100644 faq.html
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page)
+$ git push origin ft/faq-page
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 470 bytes | 470.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'ft/faq-page' on GitHub by visiting:
+remote:      https://github.com/TimothyBelekollie/git-exercise/pull/new/ft/faq-page
+remote:
+To https://github.com/TimothyBelekollie/git-exercise.git
+ * [new branch]      ft/faq-page -> ft/faq-page
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page)
+$ git revert c5473fa70678eb0faf856a848f6ceb4d6b66a59a
+Auto-merging readme.md
+CONFLICT (content): Merge conflict in readme.md
+error: could not revert c5473fa... create a team apge
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page|REVERTING)
+$ git revert c5473fa70678eb0faf856a848f6ceb4d6b66a59a
+error: Reverting is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: revert failed
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page|REVERTING)
+$ git revert c5473fa70678eb0faf856a848f6ceb4d6b66a59a
+error: Reverting is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: revert failed
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page|REVERTING)
+$ git status
+On branch ft/faq-page
+You are currently reverting commit c5473fa.
+  (fix conflicts and run "git revert --continue")
+  (use "git revert --skip" to skip this patch)
+  (use "git revert --abort" to cancel the revert operation)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    team.html
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+        both modified:   readme.md
 
 
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page|REVERTING)
+$ git add .
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page|REVERTING)
+$ git commit -m "feat: read.me"
+[ft/faq-page 9c871c3] feat: read.me
+ 2 files changed, 4 insertions(+), 14 deletions(-)
+ delete mode 100644 team.html
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page)
+$ git push origin main
+To https://github.com/TimothyBelekollie/git-exercise.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/TimothyBelekollie/git-exercise.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page)
+$ git push origin ft/faq-page
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 367 bytes | 367.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/TimothyBelekollie/git-exercise.git
+   01a578a..9c871c3  ft/faq-page -> ft/faq-page
+
+
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page|REVERTING)
+$ git add .
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page|REVERTING)
+$ git commit -m "final"
+[ft/faq-page e83b9e8] final
+ 1 file changed, 3 insertions(+)
+g
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page)
+$ git push origin ft/faq-page
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 297 bytes | 148.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/TimothyBelekollie/git-exercise.git
+   9c871c3..e83b9e8  ft/faq-page -> ft/faq-page
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page)
+
+
+ parent of c5473fa (create a team apge)
 
 belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/team-page)
 $ git add .
@@ -407,6 +555,7 @@ To https://github.com/TimothyBelekollie/git-exercise.git
 
 
 ###EXercise Two
+
 
 ##Bundle Four
 
