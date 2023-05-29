@@ -238,6 +238,24 @@ $
 ##Bundle Two
 
 ###Exercise One
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (dev)
+$ git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 4 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git pull
+Updating 1e985bf..ff34009
+Fast-forward
+ about.html    |  12 ++++
+ index.html    |  12 ++++
+ readme.md     | 226 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ services.html |  12 ++++
+ 4 files changed, 262 insertions(+)
+ create mode 100644 about.html
+ create mode 100644 index.html
+ create mode 100644 services.html
 
 
 ###EXercise Two
