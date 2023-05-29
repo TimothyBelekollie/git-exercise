@@ -362,6 +362,7 @@ To https://github.com/TimothyBelekollie/git-exercise.git
 ###Exercise One
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
 $ git checkout -b ft/team-page
 Switched to a new branch 'ft/team-page'
@@ -378,6 +379,8 @@ $ git cherry-pick c5473fa70678eb0faf856a848f6ceb4d6b66a59a
 
 
 
+=======
+>>>>>>> parent of c5473fa (create a team apge)
 =======
 >>>>>>> parent of c5473fa (create a team apge)
 ###EXercise Two
