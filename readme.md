@@ -256,6 +256,43 @@ Fast-forward
  create mode 100644 about.html
  create mode 100644 index.html
  create mode 100644 services.html
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git checkout -b ft/service-redesign
+Switched to a new branch 'ft/service-redesign'
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/service-redesign)
+$ git status
+On branch ft/service-redesign
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.md
+        modified:   services.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/service-redesign)
+$ git add .
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/service-redesign)
+$ git commit -m "changes to services page"
+[ft/service-redesign f6dfef9] changes to services page
+ 2 files changed, 19 insertions(+)
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/service-redesign)
+$ git push origin ft/service-redesign
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 706 bytes | 706.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'ft/service-redesign' on GitHub by visiting:
+remote:      https://github.com/TimothyBelekollie/git-exercise/pull/new/ft/service-redesign
+remote:
+To https://github.com/TimothyBelekollie/git-exercise.git
+ * [new branch]      ft/service-redesign -> ft/service-redesign
 
 
 ###EXercise Two
