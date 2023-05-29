@@ -354,13 +354,14 @@ Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/TimothyBelekollie/git-exercise.git
    4a22b66..604126a  main -> main
-
+   
 
 
 ##Bundle Three
 
 ###Exercise One
 
+<<<<<<< HEAD
 belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
 $ git checkout -b ft/team-page
 Switched to a new branch 'ft/team-page'
@@ -377,6 +378,8 @@ $ git cherry-pick c5473fa70678eb0faf856a848f6ceb4d6b66a59a
 
 
 
+=======
+>>>>>>> parent of c5473fa (create a team apge)
 ###EXercise Two
 
 ##Bundle Four
