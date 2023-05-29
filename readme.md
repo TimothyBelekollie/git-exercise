@@ -790,16 +790,58 @@ $ git commit -m "footer changes squashing"
  1 file changed, 13 insertions(+)
  create mode 100644 footer.html
 
-##Bundle Four
+ belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/squashing)
+$ git push origin ft/squashing
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.25 KiB | 425.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'ft/squashing' on GitHub by visiting:
+remote:      https://github.com/TimothyBelekollie/git-exercise/pull/new/ft/squashing
+remote:
+To https://github.com/TimothyBelekollie/git-exercise.git
+ * [new branch]      ft/squashing -> ft/squashing
+
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/squashing)
+$ git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 10 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+it
+belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (main)
+$ git pull
+Updating b1c5b9e..8abbb24
+Fast-forward
+ footer.html |  13 ++++++
+ index.html  |   4 ++
+ readme.md   | 132 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 3 files changed, 148 insertions(+), 1 deletion(-)
+ create mode 100644 footer.html
+
+
+
+##Bundle Five
+
 
 ###EXercise One
 
 
+###EXercise Two
 
 
+##Bundle Six
+
+###EXercise One
 
 
 ###EXercise Two
+
+
+###EXercise Three
 
 
 ```
