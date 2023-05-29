@@ -525,8 +525,7 @@ To https://github.com/TimothyBelekollie/git-exercise.git
 belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/faq-page)
 
 
-=======
->>>>>>> parent of c5473fa (create a team apge)
+ parent of c5473fa (create a team apge)
 
 belek@TimothyBelekoll MINGW64 ~/Desktop/The GYM Trainership/Week One/Git Exercise-final/git-exercise (ft/team-page)
 $ git add .
